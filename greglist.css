@@ -1,0 +1,114 @@
+.fixed-nav-bar {
+  height: 60px;
+  background-color: #EEEEEE;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+a {
+  color: purple;
+}
+
+.logo {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  font-size: 18px;
+}
+
+.inner {
+  width: 200px;
+  height: 50px;
+  background-color: #EEEEEE
+  position: relative;
+}
+
+.search-1 {
+  height: 30px;
+  border 1px solid #DDDDDD;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.search-1 input {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  width: 600px;
+}
+
+.search-1 button {
+  font-size: 17px;
+  height: 25px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+}
+
+.page-nav li {
+  font size: 16px;
+  display: inline-block;
+  border: 1px solid #DDDDDD;
+  background-color: #FFFFFF;
+  padding: 5px 10px;
+}
+
+ul {
+  margin-left: 9px;
+}
+
+.page-nav li:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.page-nav li:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.page-nav li:not(:first-child) {
+  margin-left: -5px;
+}
+
+.page-nav li:nth-child(2) {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.listings {
+  padding-bottom: 10px;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.fa-star {
+  color: #999;
+  padding-right: 8px;
+}
+
+.fa-star:hover {
+  color: #FFFF00;
+}
